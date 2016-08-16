@@ -1,0 +1,10 @@
+<suite name="ChildSuite1" verbose="1">
+
+    <test name="GithubTest">
+        <parameter name="uri" value="urismoke"></parameter>
+        <classes>
+            <class name="com.tweet.test.TimelineGETTest"/>
+        </classes>
+    </test>
+
+</suite>
